@@ -1,3 +1,4 @@
+
 {
 	"name": "react-hello",
 	"version": "1.0.1",
@@ -10,6 +11,8 @@
 		"start": "webpack-dev-server --mode development",
 		"build": "webpack --mode development",
 		"deploy:github": "node deploy-to-github.js"
+		
+		
 	},
 	"author": "Alejandro Sanchez",
 	"license": "ISC",
@@ -60,7 +63,7 @@
 		"prop-types": "^15.7.2",
 		"query-string": "^7.0.1",
 		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
+		"react-dom": "18.2.0",
 		"react-polyfills": "0.0.1",
 		"react-router": "^6.0.2"
 	}
